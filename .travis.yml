@@ -6,4 +6,4 @@ os: linux
 language: java
 
 # Run script
-script: mvn clean verify
+script: mvn -Pjacoco clean verify jacoco:report coveralls:report
