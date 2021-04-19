@@ -1,3 +1,9 @@
+# Build Environment
+dist: xenial
+os: linux
+
+# Project language
 language: java
-sudo: false
+
+# Run script
 script: mvn clean verify
